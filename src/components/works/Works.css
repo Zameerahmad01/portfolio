@@ -1,0 +1,82 @@
+#works{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.workTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.workDesc{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    max-width: 50rem;
+    padding: 1rem;
+}
+
+.workContainer{
+    width: 100vw;
+    max-width: 65rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    gap: 2rem;
+
+}
+
+.workBox{
+    height: 18rem;
+    width: 15rem;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.workBox:hover{
+    transform: scale(1.1);
+}
+
+.workBox img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.moreButton{
+    background: white;
+    color: black;
+    padding: .5rem 1.5rem;
+    margin-top: 2rem ;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 580px){
+    .workBox{
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .workDesc{
+        max-width: 90%;
+        padding: 0;
+    }
+}

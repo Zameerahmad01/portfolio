@@ -1,0 +1,110 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.introImg{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem 2rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hello{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: yellow;
+}
+
+.introPara{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.introBtn{
+    background: white;
+    color: black;
+    padding: .5rem 1.5rem;
+    margin-top: 2rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hireBtnImg{
+    height: 1rem;
+    width: 1rem;
+    margin: .5rem;
+    
+}
+
+
+@media screen and (max-width:540px){
+    .introImg{
+        right: -20vw;
+    }
+
+    .introContent{
+        padding-top: 10rem;
+        font-size: 1.5rem;
+    }
+
+    .introBtn{
+        margin-top: 1rem;
+    }
+
+
+    .introPara{
+        font-size: .8rem;
+        font-weight: 500;
+    }
+}
+
+
+/* @media screen and (max-width:840px){
+   
+
+    .introContent{
+        
+        font-size: 1.7rem;
+    }
+
+    .introBtn{
+        margin-top: 1rem;
+    }
+
+
+    .introPara{
+        font-size: .8rem;
+        font-weight: 500;
+    }
+}  */
+
+
