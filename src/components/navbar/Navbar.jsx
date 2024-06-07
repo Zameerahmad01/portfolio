@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <img src={logo} alt="logo"  className='navLogo'/>
+        <h1>ZAMEER</h1>
         <div className="navMenu">
          <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500}  className='navMenuItems'>Home</Link>
          <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='navMenuItems'>About</Link>
